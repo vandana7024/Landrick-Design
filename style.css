@@ -1,0 +1,64 @@
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .carousel {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 60px;
+}
+
+.carousel .card {
+  height: 300px;
+  border-radius: 5px;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.owl-dot {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid gray !important;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+  background-color: blue !important;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.owl-prev {
+  left: 40px;
+}
+
+.owl-next {
+  right: 20px;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 30px;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+  color: #777;
+}
