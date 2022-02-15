@@ -11,7 +11,6 @@ tailwind.config = {
         yellow: "#fde047",
         navyblue: "#202942",
         slatemyblue: "#27314f",
-
         sky: "#ADB5BD",
       },
     },

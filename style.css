@@ -20,20 +20,26 @@
 }
 
 .owl-dot {
-  background-color: black;
-  height: 15px;
-  width: 15px;
+  height: 12px;
+  width: 12px;
   border-radius: 50%;
   cursor: pointer;
   outline: none;
   margin: 0 5px;
   border: 2px solid gray !important;
   transition: all 0.3s ease;
+  background-color: #777;
 }
 
 .owl-dot:hover,
 .owl-dot.active {
   background-color: blue !important;
+  transition: all 0.9s ease;
+  transform: rotate(40deg);
+
+  height: 12px;
+  width: 12px;
+  border-radius: 25%;
 }
 
 .owl-prev,
